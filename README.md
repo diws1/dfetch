@@ -5,7 +5,9 @@ Depend: Font Awesome
 
 <i><b> How to use dfetch script? </b></i>
 
-Copy dfetch file to your /usr/local/bin/ difectory, then chmod 755 /usr/local/bin/dfetch, run dfetch via terminal
+Copy dfetch file to your <i><b>/usr/local/bin/</i></b> difectory \
+Then run <i><b>sudo chmod 755 /usr/local/bin/dfetch</i><b/b> \
+Type <b>dfetch</b> on your terminal
 
 
 Preview
