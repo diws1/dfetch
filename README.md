@@ -1,7 +1,8 @@
 # dfetch
 <b>dfetch</b> is simple system information write on bash
 
-Depend: Font Awesome 
+> [!NOTE]
+> Depend: Font Awesome 
 
 ## How to use dfetch ?
 
