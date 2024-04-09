@@ -10,7 +10,7 @@ Clone this repository on your home directory :
 cd ~/
 git clone https://github.com/diws1/dfetch
 ```
-Copy <b>dfetch</b> file to your <i>/usr/local/bin/</i> difectory
+Copy <b>dfetch</b> file to your <i>/usr/local/bin/</i> directory
 ```
 cd dfetch/
 sudo cp dfetch /usr/local/bin/
