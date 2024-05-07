@@ -1,6 +1,5 @@
 # dfetch
-dfetch (dabble fetch) is simple system information write on shell
-![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
+<b>dfetch</b> <i>(dabble fetch)</i> is simple system information write on shell.
 
 ## How to install dfetch ?
 The first clone this repository:
@@ -21,5 +20,8 @@ Now you can use dfetch on your system by typing command below on your terminal:
 ```
 dfetch
 ```
+
+## Preview
+![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
 
 
