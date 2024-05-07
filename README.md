@@ -1,5 +1,5 @@
 # dfetch
-<b>dfetch</b> <i>(dabble fetch)</i> is simple system information write on shell.
+<b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
 
 ## How to install dfetch ?
 The first clone this repository:
