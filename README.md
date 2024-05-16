@@ -24,4 +24,9 @@ dfetch
 ## Preview
 ![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
 
+## Command List
+| Command | Description |
+| --- | --- |
+| `name=$(whoami)` | username |
+| `os=$(source /etc/os-release && echo $PRETTY_NAME)` | distro name |
 
