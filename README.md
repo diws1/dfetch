@@ -27,11 +27,11 @@ dfetch
 ## Command List
 | Command | Description |
 | --- | :---: |
-| `whoami` | username |
-| `source /etc/os-release && echo $PRETTY_NAME` | distro name |
-| `uname -sr` | kernel type |
-| `basename $SHELL` | shell type |
-| `uptime -p \| sed 's/up //'` | uptime |
-| `echo $DESKTOP_SESSION` | desktop/wm name |
-| `free -h \| awk 'NR==2{print $3}' \| sed s/i//` | memory used |
-| `free -h \| awk 'NR==2{print $4}' \| sed s/i//` | memory free |
+| `whoami` | Username |
+| `source /etc/os-release && echo $PRETTY_NAME` | Distro name |
+| `uname -sr` | Kernel type |
+| `basename $SHELL` | Shell type |
+| `uptime -p \| sed 's/up //'` | Uptime |
+| `echo $DESKTOP_SESSION` | Desktop/wm name |
+| `free -h \| awk 'NR==2{print $3}' \| sed s/i//` | Memory used |
+| `free -h \| awk 'NR==2{print $4}' \| sed s/i//` | Memory free |
