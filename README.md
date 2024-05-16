@@ -26,7 +26,7 @@ dfetch
 
 ## Command List
 | Command | Description |
-| --- | --- |
+| --- | :---: |
 | `whoami` | username |
 | `source /etc/os-release && echo $PRETTY_NAME` | distro name |
 | `uname -sr` | kernel type |
