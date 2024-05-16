@@ -25,6 +25,8 @@ dfetch
 ![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
 
 ## Command List
+These are some of command lines i use in dfetch. I think there are still many command lines that can display various information on a linux system.
+
 | Command | Description |
 | --- | :---: |
 | `whoami` | Username |
