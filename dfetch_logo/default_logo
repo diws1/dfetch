@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# defeault logo
+col=$(tput setaf 5)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col
+     ██         ██
+       ██     ██
+     ████████████
+ ██ ███ .█████ .██
+ ███████████████████
+     █████  █████ ██
+       ▀▀▀▀▀▀▀▀
+$rst
+EOF

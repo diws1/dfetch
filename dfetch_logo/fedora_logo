@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# fedora logo
+col=$(tput setaf 12)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+      ,. *^ "^' --,
+   ,."     .-.---.  \'
+   :      / /_-,_)   .
+  /    __' ._/       "
+  \   (   /         .
+   ^   '-"        ,/
+  /__..-.-___ _.-
+$rst
+EOF

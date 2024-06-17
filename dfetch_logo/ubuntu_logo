@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# ubuntu logo
+col=$(tput setaf 3)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+        ,. ----.,'",
+ ,--,.  \  ___  '__*
+ *__: \  "     ':  .
+   /   ;        ---'
+   \   ,      .---.
+   ^.  ^-  --"  .',
+     "./  /__.-:__/
+$rst
+EOF
+

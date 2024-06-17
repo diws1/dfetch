@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# arch logo
+col=$(tput setaf 12)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col
+        /'
+       /  \'
+       \   \'
+     /'    "\.
+    ;   ..  \;
+   :  _"  '_, .
+  , /        \ ;
+$rst
+EOF

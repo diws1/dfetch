@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# debian logo
+col=$(tput setaf 9)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+      ,. "'';.
+     ;        .
+    '   ;     ,
+    ;    ., ,
+     ;
+       ;
+         .
+$rst
+EOF

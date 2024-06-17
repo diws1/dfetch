@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# nixos logo
+col=$(tput setaf 12)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+
+    _\'.___.\//
+   --//-----.\ ,
+  __//       \//_
+  -//\       //--
+    '.\_____//__
+    //\'----"\-
+
+$rst
+EOF

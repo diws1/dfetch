@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# opensuse logo
+col=$(tput setaf 2)
+bld=$(tput bold)
+rev=$(tput rev)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+ -_ .\ ----_
+   /   (.) '.
+         ----\.
+  --__\_____./
+   \.
+
+   $rev openSUSE 
+$rst
+EOF
+

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# gentoo logo
+col=$(tput setaf 5)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+    ,. ----.,
+   ,.   __   '*
+  :    '__"    ^:
+   \            ,'
+   .'         ./
+ ./        ,./'
+  ". __/.'^
+$rst
+EOF
+
+

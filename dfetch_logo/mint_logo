@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# mint logo
+col=$(tput setaf 10)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+     _ -,. ----.,.
+   .   __          \.
+  /   / /.--------. '.
+ '   / // // // / /  .
+ ;  / //_//_//_/ /   .
+ "  \__________.'   .
+  ^.              .'
+    " ._ __ _.-:/
+$rst
+EOF
