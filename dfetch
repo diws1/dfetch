@@ -9,6 +9,7 @@
 # List of command
 name=$(whoami)
 os=$(source /etc/os-release && echo $PRETTY_NAME)
+        os_shortname=$(source /etc/os-release && echo $PRETTY_NAME | awk '{print$1}')
 kernel=$(uname -sr)
 shell=$(basename $SHELL)
 uptime=$(uptime -p | sed 's/up //')
@@ -16,7 +17,7 @@ wm=$(echo $DESKTOP_SESSION)
 mem=$(free -h | awk 'NR==2{print $3}' | sed s/i//)
 free=$(free -h | awk 'NR==2{print $4}' | sed s/i//)
 
-# List colors
+# Add colors
 #normal
 bla=$(tput setaf 0)
 red=$(tput setaf 1)
@@ -36,20 +37,80 @@ bmag=$(tput setaf 13)
 bcya=$(tput setaf 14)
 bwhi=$(tput setaf 15)
 
-# Other variable (bold, reset)
+# Text styling (bold, reset)
 bld=$(tput bold)
 rst=$(tput sgr0)
 
+# Text position (default x, default y etc)
+defpos_y=$(tput cuu 8)
+defpos_x=$(tput cuf 23)
+pos_x=$(tput cuf 19)
+
+# Ascii image settings
+#add ascii image folder
+export PATH="${PATH}:/usr/bin/dfetch_logo
+
+#sett the ascii image
+if [ $os_shortname = Debian ]; then
+        asc="$(debian_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = Arch ]; then
+        asc="$(arch_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = Void ]; then
+        asc="$(void_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Ubuntu ]; then
+        asc="$(ubuntu_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Fedora ]; then
+        asc="$(fedora_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Manjaro ]; then
+        asc="$(manjaro_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = openSUSE ]; then
+        asc="$(opensuse_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = NixOS ]; then
+        asc="$(nixos_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = Gentoo ]; then
+        asc="$(gentoo_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = Linux ]; then
+        asc="$(mint_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = LMDE ]; then
+        asc="$(mint_logo)"
+        pad="$defpos_x"
+
+else
+        asc="$(default_logo)"
+        pad="$defpos_x"
+
+fi
+
 # Print result
 cat <<EOF
-
-${mag}     ██         ██	${rst}${blu}${bld} usr ${rst} ${name}
-${mag}       ██     ██     	${rst}${gre}${bld} dis ${rst} ${os}
-${mag}     ████████████   	${rst}${mag}${bld} knl ${rst} ${kernel}
-${mag} ██ ███ .█████ .██	${rst}${whi}${bld} sh  ${rst} ${shell}
-${mag} ███████████████████	${rst}${red}${bld} up  ${rst} ${uptime}
-${mag}     █████  █████ ██	${rst}${cya}${bld} wm  ${rst} ${wm}
-${mag}       ▀▀▀▀▀▀▀▀		${rst}${yel}${bld} mem ${rst} ${mem}
+$asc$defpos_y
+$pad$blu$bld usr $rst $name
+$pad$gre$bld dis $rst $os
+$pad$mag$bld knl $rst $kernel
+$pad$whi$bld sh  $rst $shell
+$pad$red$bld up  $rst $uptime
+$pad$cya$bld wm  $rst $wm
+$pad$yel$bld mem $rst $mem
 
 EOF
 
