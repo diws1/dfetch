@@ -48,7 +48,7 @@ pos_x=$(tput cuf 19)
 
 # Ascii image settings
 #add ascii image folder
-export PATH="${PATH}:/usr/bin/dfetch_logo
+export PATH="${PATH}:/usr/bin/dfetch_logo"
 
 #sett the ascii image
 if [ $os_shortname = Debian ]; then
