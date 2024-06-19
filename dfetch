@@ -95,6 +95,22 @@ elif [ $os_shortname = LMDE ]; then
         asc="$(mint_logo)"
         pad="$defpos_x"
 
+elif [ $os_shortname = EndeavourOS ]; then
+        asc="$(endeavour_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Slackware ]; then
+        asc="$(slackware_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Alpine ]; then
+        asc="$(alpine_logo)"
+        pad="$defpos_x"
+
+elif [ $os_shortname = Kali ]; then
+        asc="$(kali_logo)"
+        pad="$defpos_x"
+
 else
         asc="$(default_logo)"
         pad="$defpos_x"
