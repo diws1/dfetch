@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# kali logo
+col1=$(tput setaf 4)
+col2=$(tput setaf 7)
+rev=$(tput rev)
+rst=$(tput sgr0)
+
+
+cat <<EOF
+$col1
+$rev$col2 K $rst$col1  \.
+$rev$col2 A $rst$col1      \ .\--'.,
+$rev$col2 L $rst$col1     '<     $col2-$col1 /_ _
+$rev$col2 I $rst$col1 __    < \ _    '/
+       ^.,.\   \^^"' $col2.,$col1
+            ---\^/   $col2.'$col1
+$rev$col2 L I N U X $rst$col1,,          ' "
+$rst
+EOF
+
+
+
+
+
+# K   \
+# A       \ .\--'.,
+# L      '<     - /_ _
+# I  __    < \ _    '/
+#       ^.,.\   \^^"' .,.,:
+#            ---\^/   .'.;:".
+# L I N U X ..          ' "
+
+
+
+
+

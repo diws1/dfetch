@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# slackware logo
+col=$(tput setaf 4)
+bld=$(tput bold)
+uln=$(tput smul)
+rev=$(tput rev)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col$bld
+       ,. ----- ,
+    ,'   .====|  ".
+   ;     '===.     .
+   ,    |===='     ;
+    \  |-------   .
+      '  -----  ^
+       $rev$uln|slackware
+$rst
+EOF
+

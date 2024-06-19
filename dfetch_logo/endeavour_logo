@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# endeavour logo
+col1=$(tput setaf 13)
+col2=$(tput setaf 11)
+bld=$(tput bold)
+rst=$(tput sgr0)
+
+cat <<EOF
+$bld
+$col1         ,---.,
+$col2       .$col1/     '*.
+$col2     .'$col1/         ^:
+$col2    / $col1/           '.
+$col2  /  $col1.'           ./
+$col2 "--$col1/            ,./'
+$col1   "..__,../.-- '^
+$rst
+EOF
+
+

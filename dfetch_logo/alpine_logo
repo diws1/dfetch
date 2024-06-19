@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# alpine logo
+col=$(tput setaf 4)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col
+      .--------,
+    /    .,      \.
+   /    /  \/'\   \,
+  '    / .^,\^.\   ;
+   \  . /   \.  ' /
+    \            /
+      '--------"
+$rst
+EOF
