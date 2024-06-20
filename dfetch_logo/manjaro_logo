@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# majaro logo
+# manjaro logo
 col=$(tput setaf 2)
 bld=$(tput bold)
 rev=$(tput rev)
