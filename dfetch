@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #; ______________
-#; |  \o| . ||__   https://youtube.com/@diws
-#; |__/||_|_| __|  https://github.com/diws1
+#; |  \o| . ||__   dfetch (dabble fetch) a simple system information tool
+#; |__/||_|_| __|  https://github.com/diws1/dfetch
 #;
 
 
@@ -15,7 +15,7 @@ shell=$(basename $SHELL)
 uptime=$(uptime -p | sed 's/up //')
 wm=$(echo $DESKTOP_SESSION)
 mem=$(free -h | awk 'NR==2{print $3}' | sed s/i//)
-free=$(free -h | awk 'NR==2{print $4}' | sed s/i//)
+#free=$(free -h | awk 'NR==2{print $4}' | sed s/i//)
 
 # Add colors
 #normal
@@ -108,8 +108,16 @@ elif [ $os_shortname = Alpine ]; then
         pad="$defpos_x"
 
 elif [ $os_shortname = Kali ]; then
-        asc="$(kali_logo)"
+        asc="$(kali_logo2)"
         pad="$defpos_x"
+
+elif [ $os_shortname = Artix ]; then
+        asc="$(artix_logo)"
+        pad="$pos_x"
+
+elif [ $os_shortname = Solus ]; then
+        asc="$(solus_logo)"
+        pad="$pos_x"
 
 else
         asc="$(default_logo)"
