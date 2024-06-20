@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# artix logo
+col=$(tput setaf 12)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col
+        /'
+       /  \'
+      '-_  \'
+     /'-."-_\.
+    ;    '.-~
+   : _.-"^_.-'\.
+  ,;"       '~.;
+$rst
+EOF
+
