@@ -15,7 +15,7 @@ $rev$col2 L $rst$col1     '<     $col2-$col1 /_ _
 $rev$col2 I $rst$col1 __    < \ _    '/
        ^.,.\   \^^"' $col2.,$col1
             ---\^/   $col2.'$col1
-$rev$col2 L I N U X $rst$col1,,          ' "
+$rev$col2 L I N U X $rst$col1,,
 $rst
 EOF
 
