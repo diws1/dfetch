@@ -24,6 +24,12 @@ dfetch
 ## Preview
 ![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
 
+## Tips
+<b>dfetch</b> has several ascii art logos created from scratch.To display available ascii, you can run this command in the terminal:
+```
+run-parts /usr/bin/dfetch_logo/
+```
+
 ## Command List
 These are some of command lines i use in dfetch. I think there are still many command lines that can display various information on a linux system.
 
