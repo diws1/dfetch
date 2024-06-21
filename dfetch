@@ -9,7 +9,10 @@
 # List of command
 name=$(whoami)
 os=$(source /etc/os-release && echo $PRETTY_NAME)
+        #get shortname
         os_shortname=$(source /etc/os-release && echo $PRETTY_NAME | awk '{print$1}')
+        #some distro names are in the second word ex: Linux Mint, Linux Lite
+        os_shortname2=$(source /etc/os-release && echo $PRETTY_NAME | awk '{print$2}')
 kernel=$(uname -sr)
 shell=$(basename $SHELL)
 uptime=$(uptime -p | sed 's/up //')
@@ -87,7 +90,7 @@ elif [ $os_shortname = Gentoo ]; then
         asc="$(gentoo_logo)"
         pad="$pos_x"
 
-elif [ $os_shortname = Linux ]; then
+elif [ $os_shortname2 = Mint ]; then
         asc="$(mint_logo)"
         pad="$defpos_x"
 
