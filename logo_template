@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#; This is logo template file for dfetch (dabble fetch)
+#; You can use some ascii files from https://github.com/diws1/dfetch/dfetch_logo for example
+#; Create new ascii with (23x7) 23 characters to the right and 7 characters to the bottom
+
+# distroname logo
+col=$(tput setaf x) #color (with x= 1-16)
+bld=$(tput bold) #bold
+uln=$(tput smul) #underline
+rev=$(tput rev) #reverse (like background)
+rst=$(tput sgr0) #reset
+
+cat <<EOF
+$col$bld
+       ,. ----- ,
+    ,'   .====|  ".
+   ;     '===.     .
+   ,    |===='     ;
+    \  |-------   .
+      '  -----  ^
+       $rev$uln|slackware
+$rst
+EOF
+
