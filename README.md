@@ -25,7 +25,7 @@ dfetch
 ![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
 
 ## Tips
-<b>dfetch</b> has several ascii art logos created from scratch.To display available ascii, you can run this command in the terminal:
+<b>dfetch</b> has several ascii art logos created from scratch. To display available ascii, you can run this command in the terminal:
 ```
 run-parts /usr/bin/dfetch_logo/
 ```
