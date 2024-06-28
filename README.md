@@ -44,6 +44,6 @@ These are some of command lines i use in dfetch. I think there are still many co
 | `uptime -p \| sed 's/up //'` | Uptime |
 | `echo $DESKTOP_SESSION` | Desktop/wm name |
 | `free -h \| awk 'NR==2{print $3}' \| sed s/i//` | Memory used |
-| `free -h \| awk 'NR==2{print $4}' \| sed s/i//` | Memory free |
+| <del>`free -h \| awk 'NR==2{print $4}' \| sed s/i//`</del> | Memory free |
 
 
