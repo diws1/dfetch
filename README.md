@@ -1,7 +1,7 @@
 # dfetch
 <img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch2.png" alt="image" />
 <b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
-<b>dfetch</b> has several ascii art created from scratch. If your distro ascii is not yet available in the repository, the default dfetch logo will be used instead.
+dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead.
 To display available ascii, you can run this command in the terminal:
 
 ```
@@ -45,3 +45,5 @@ These are some of command lines i use in dfetch. I think there are still many co
 | `echo $DESKTOP_SESSION` | Desktop/wm name |
 | `free -h \| awk 'NR==2{print $3}' \| sed s/i//` | Memory used |
 | `free -h \| awk 'NR==2{print $4}' \| sed s/i//` | Memory free |
+
+
