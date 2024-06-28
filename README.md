@@ -3,10 +3,7 @@
 <b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
 This is a simple project that focuses on simplicity, making it easy to learn and modify.
 dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead.
-
-
-
-
+<br />
 To display available ascii, you can run this command in the terminal:
 
 ```
