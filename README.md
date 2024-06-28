@@ -1,10 +1,13 @@
 # dfetch
-<img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png" alt="image" />
-<b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.\
-dfetch has several ascii art created from scratch. If your distro ascii is not yet available in the repository, the default dfetch logo will be used instead.\
+<img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png" height="200" width="220" alt="image" />
+<b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
+<b>dfetch</b> has several ascii art created from scratch. If your distro ascii is not yet available in the repository, the default dfetch logo will be used instead.
+To display available ascii, you can run this command in the terminal:
+```
+run-parts /usr/bin/dfetch_logo/
+```
 
-
-## How to install dfetch ?
+## Installation
 The first clone this repository:
 ```
 cd ~/
@@ -25,13 +28,8 @@ dfetch
 ```
 
 ## Preview
-![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch2.png)
+![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch1.png)
 
-## Tips
-<b>dfetch</b> has several ascii art logos created from scratch. To display available ascii, you can run this command in the terminal:
-```
-run-parts /usr/bin/dfetch_logo/
-```
 
 ## Command List
 These are some of command lines i use in dfetch. I think there are still many command lines that can display various information on a linux system.
