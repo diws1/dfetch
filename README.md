@@ -5,11 +5,6 @@ This is a simple project that focuses on simplicity, making it easy to learn and
 dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead. <br />
 <br />
 <br />
-To display available ascii, you can run this command in the terminal:
-
-```
-run-parts /usr/bin/dfetch_logo/
-```
 
 ## Installation
 The first clone this repository:
@@ -34,6 +29,11 @@ dfetch
 ## Preview
 ![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch1.png)
 
+## Tips
+To display available ascii, you can run this command in the terminal:
+```
+run-parts /usr/bin/dfetch_logo/
+```
 
 ## Command List
 These are some of command lines i use in dfetch. I think there are still many command lines that can display various information on a linux system.
