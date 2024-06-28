@@ -1,5 +1,5 @@
 # dfetch
-<img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png/150/150" alt="image" />
+<img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png" height="150" width="150" alt="image" />
 <b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
 
 ## How to install dfetch ?
