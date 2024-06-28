@@ -2,9 +2,7 @@
 <img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch2.png" alt="image" />
 <b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
 This is a simple project that focuses on simplicity, making it easy to learn and modify.
-dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead. <br />
-<br />
-<br />
+dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead.
 
 ## Installation
 The first clone this repository:
