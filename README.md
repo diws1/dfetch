@@ -7,7 +7,6 @@ dfetch has several ascii art created from scratch. If your distro ascii is not y
 <br />
 To display available ascii, you can run this command in the terminal:
 
-<br />
 ```
 run-parts /usr/bin/dfetch_logo/
 ```
