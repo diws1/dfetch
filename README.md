@@ -1,4 +1,5 @@
 # dfetch
+<img align="right" src="https://github.com/diws1/dfetch/blob/main/screenshot/dfetch1.png" alt="image" />
 <b>dfetch</b> <i>(dabble fetch)</i> is simple system information tool write on shell.
 
 ## How to install dfetch ?
@@ -22,7 +23,7 @@ dfetch
 ```
 
 ## Preview
-![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch.png)
+![My Image](https://github.com/diws1/dfetch/blob/main/screenshot/dfetch2.png)
 
 ## Tips
 <b>dfetch</b> has several ascii art logos created from scratch. To display available ascii, you can run this command in the terminal:
