@@ -5,6 +5,8 @@ This is a simple project that focuses on simplicity, making it easy to learn and
 dfetch has several ascii art created from scratch. If your distro ascii is not yet available in this repository, the default dfetch logo will be used instead.
 
 
+
+
 To display available ascii, you can run this command in the terminal:
 
 ```
