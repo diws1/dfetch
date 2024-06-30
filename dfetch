@@ -122,6 +122,10 @@ elif [ $os_shortname = Solus ]; then
         asc="$(solus_logo)"
         pad="$pos_x"
 
+elif [ $os_shortname = CRUX ]; then
+        asc="$(crux_logo)"
+        pad="$pos_x"
+
 else
         asc="$(default_logo)"
         pad="$defpos_x"
