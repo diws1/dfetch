@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# crux logo
+col1=$(tput setaf 12)
+col2=$(tput setaf 3)
+col3=$(tput setaf 15)
+rst=$(tput sgr0)
+
+cat <<EOF
+$col1
+       ,--.
+      |- o |
+      | ${col2}v$col1  |
+     /$col3. -- .$col1'.
+   .'$col3/_    \ $col1./
+  /${col2}nnn$col1 o   ${col2}nnn$col1)'
+   $col2\;\ ${col1}.--_$col2\|/$col1.'
+$rst
+EOF
+
+
+
+#       ,--.
+#      |- o |
+#      | v  |
+#     /. -- .'.
+#   .'/_    \ ./
+#  /nnn o   nnn)'
+#   \;\ .--_\|/.'
+
+
