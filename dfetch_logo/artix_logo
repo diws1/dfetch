@@ -3,16 +3,17 @@
 # artix logo
 col=$(tput setaf 12)
 rst=$(tput sgr0)
+s=$(echo "\\") #backslash
 
 cat <<EOF
 $col
         /'
-       /  \'
-      '-_  \'
-     /'-."-_\.
-    ;    '.-~
-   : _.-"^_.-'\.
-  ,;"       '~.;
+       /  $s
+      '-_  $s
+     /'-."-_$s
+    /    '.-~
+   / _.-"^_.-'$s
+  /,"       '~.$s
 $rst
 EOF
 
