@@ -3,15 +3,16 @@
 # arch logo
 col=$(tput setaf 12)
 rst=$(tput sgr0)
+s=$(echo "\\") #backslash
 
 cat <<EOF
 $col
         /'
-       /  \'
-       \   \'
-     /'    "\.
-    ;   ..  \;
-   :  _"  '_, .
-  , /        \ ;
+       /  $s
+       \   $s
+     /'    "$s
+    /   ..   $s
+   /  _"  '_, $s
+  , /        $s ;
 $rst
 EOF
